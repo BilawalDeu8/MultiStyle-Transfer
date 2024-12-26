@@ -9,7 +9,6 @@ This project explores **Neural Style Transfer (NST)** using various deep learnin
 - [Models and Performance](#models-and-performance)
 - [Dataset](#dataset)
 - [Results](#results)
-- [License](#license)
 
 ---
 
@@ -67,10 +66,6 @@ The project leverages the **WikiArt dataset**, a comprehensive collection of art
 - **VGG19 with Adaptive Loss**:
   - **PSNR**: 18.07 dB
   - Produces aesthetically pleasing outputs with dynamic adjustments for style integration.
-
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 
 
