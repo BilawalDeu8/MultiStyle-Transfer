@@ -50,8 +50,4 @@ The project leverages the **WikiArt dataset**, a comprehensive collection of art
 
 ---
 
-## How to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/username/multi-style-nst.git
-   cd multi-style-nst
+
