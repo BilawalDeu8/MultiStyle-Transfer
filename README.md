@@ -1,5 +1,5 @@
 # MultiStyle-Neural-Transfer
-# Multi-Style Neural Transfer (NST) Project
+
 
 This project explores **Neural Style Transfer (NST)** using various deep learning models to merge artistic styles with content images. By analyzing the performance of multiple architectures and loss functions, it identifies the most effective approaches for NST.
 
