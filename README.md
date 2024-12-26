@@ -8,9 +8,7 @@ This project explores **Neural Style Transfer (NST)** using various deep learnin
 - [Key Features](#key-features)
 - [Models and Performance](#models-and-performance)
 - [Dataset](#dataset)
-- [How to Run the Project](#how-to-run-the-project)
 - [Results](#results)
-- [Future Work](#future-work)
 - [License](#license)
 
 ---
@@ -50,23 +48,30 @@ The project leverages the **WikiArt dataset**, a comprehensive collection of art
 
 ---
 
-Results
-Key Highlights:
-VGG19 (Baseline):
+## Results
+### Key Highlights:
+- **VGG19 (Baseline)**:
+  - **PSNR**: 16.41 dB
+  - Known for its simplicity and computational intensity.
+  - Produces decent visual results, but lacks fidelity for complex styles.
 
-PSNR: 16.41 dB.
-Known for its simplicity and computational intensity.
-Produces decent visual results, but lacks fidelity for complex styles.
-ResNet50V2:
+- **ResNet50V2**:
+  - **PSNR**: Not available
+  - This model improves gradient flow.
+  - Provides better training efficiency but requires further evaluation.
 
-No specific PSNR is available, but this model improves gradient flow.
-Provides better training efficiency but requires further evaluation.
-DenseNet-121:
+- **DenseNet-121**:
+  - **PSNR**: 15.87 dB
+  - Good content preservation but introduces noise during stylization.
 
-PSNR: 15.87 dB.
-Good content preservation but introduces noise during stylization.
-VGG19 with Adaptive Loss:
+- **VGG19 with Adaptive Loss**:
+  - **PSNR**: 18.07 dB
+  - Produces aesthetically pleasing outputs with dynamic adjustments for style integration.
 
-PSNR: 18.07 dB.
-Produces aesthetically pleasing outputs with dynamic adjustments for style integration.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
+
 
