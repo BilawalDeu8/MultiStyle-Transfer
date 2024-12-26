@@ -35,6 +35,7 @@ Neural Style Transfer (NST) is a technique to create visually compelling images 
 | Model                     | PSNR (dB) | Notes                                                                 |
 |---------------------------|-----------|-----------------------------------------------------------------------|
 | **VGG19 (Baseline)**      | 16.41     | Straightforward Gram matrices and MSE loss; computationally intensive.|
+| **ResNeXt-50**            | 18.65     | Best performer in terms of image fidelity and noise handling.        |
 | **DenseNet-121**          | 15.87     | Efficient but introduces stylization noise.                          |
 | **VGG19 (Adaptive Loss)** | 18.07     | Dynamic loss adjustments; excels in aesthetic quality.               |
 
