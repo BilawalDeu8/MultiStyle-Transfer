@@ -50,4 +50,23 @@ The project leverages the **WikiArt dataset**, a comprehensive collection of art
 
 ---
 
+Results
+Key Highlights:
+VGG19 (Baseline):
+
+PSNR: 16.41 dB.
+Known for its simplicity and computational intensity.
+Produces decent visual results, but lacks fidelity for complex styles.
+ResNet50V2:
+
+No specific PSNR is available, but this model improves gradient flow.
+Provides better training efficiency but requires further evaluation.
+DenseNet-121:
+
+PSNR: 15.87 dB.
+Good content preservation but introduces noise during stylization.
+VGG19 with Adaptive Loss:
+
+PSNR: 18.07 dB.
+Produces aesthetically pleasing outputs with dynamic adjustments for style integration.
 
